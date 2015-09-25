@@ -46,4 +46,7 @@ case "$HADOOP_MAJOR_VERSION" in
      return -1
 esac
 
+$EPHEMERAL_HDFS/bin/hadoop fs -mkdir /tmp/hive
+$EPHEMERAL_HDFS/bin/hadoop fs -chmod -R a+w /tmp/hive
+
 popd > /dev/null
