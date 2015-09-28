@@ -8,7 +8,8 @@ sudo sed -i s/\$releasever/6/g /etc/yum.repos.d/epel-apache-maven.repo
 sudo yum install -y apache-maven
 
 ## Get zeppelin
-git clone https://github.com/apache/incubator-zeppelin.git zeppelin
+#git clone https://github.com/apache/incubator-zeppelin.git zeppelin
+git clone https://github.com/felixcheung/incubator-zeppelin/tree/r zeppelin
 
 cd ./zeppelin
 
