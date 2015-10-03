@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pushd /root/spark-ec2/zeppelin > /dev/null
+pushd /root/spark-ec2/zeppelin/zeppelin > /dev/null
 
 echo "Starting Zeppelin..."
 
